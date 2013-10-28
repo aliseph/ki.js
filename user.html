@@ -1,0 +1,83 @@
+<ul class="uk-breadcrumb">
+    <li> <a href="index.html">主页</a></li>
+    <li>
+        <a href="users.html" target="pjax" data-uk-tooltip="{pos:'bottom-right'}" title="222">Users</a>
+    </li>
+    <li class="uk-active"><span> User</span></li>
+</ul>
+<ul class="uk-tab" data-uk-tab="{connect:'#user-tab'}">
+    <li class="uk-active"><a href="#">Tab</a></li>
+    <li><a href="#">Tab</a></li>
+    <li><a href="#">Tab</a></li>
+</ul>
+
+<ul id="user-tab" class="uk-switcher uk-margin">
+    <li class="uk-active">
+        <form class="uk-form uk-form-stacked">
+            <div class="uk-form-row">
+                <label class="uk-form-label" for="form-s-it">Text input</label>
+                <div class="uk-form-controls">
+                    <input type="text" name="text1" id="form-s-it" placeholder="Text input" data-rule="required;username">
+                </div>
+            </div>
+            <div class="uk-form-row">
+                <label class="uk-form-label" for="form-s-ip">Password input</label>
+                <div class="uk-form-controls">
+                    <input type="password" name="password" id="form-s-ip" placeholder="Password input" data-rule="required;password">
+                </div>
+            </div>
+
+            <div class="uk-form-row">
+                <label class="uk-form-label" for="form-s-s">Select field</label>
+                <div class="uk-form-controls">
+                    <select name="select1" id="form-s-s">
+                        <option>Option 01</option>
+                        <option>Option 02</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="uk-form-row">
+                <label class="uk-form-label" for="form-s-t">Textarea</label>
+                <div class="uk-form-controls">
+                    <textarea id="form-s-t" name="text2" cols="30" rows="5" placeholder="Textarea text"></textarea>
+                </div>
+            </div>
+            <div class="uk-form-row">
+                <span class="uk-form-label">Radio input</span>
+                <div class="uk-form-controls">
+                    <input type="radio" id="form-s-r" name="radio"> <label for="form-s-r">Radio input</label><br>
+                    <input name="radio1" value="1" type="radio" id="form-s-r1" name="radio"> <label for="form-s-r1">1</label>
+                    <label><input name="radio1" value="2" type="radio" name="radio"> 2</label>
+                    <label><input name="radio1" value="3" type="radio" name="radio"> 3</label>
+                </div>
+            </div>
+            <div class="uk-form-row">
+                <span class="uk-form-label">Checkbox input</span>
+                <div class="uk-form-controls">
+                    <input type="checkbox" id="form-s-c"> <label for="form-s-c">Checkbox input</label><br>
+                    <input name="checkbox1" value="1" type="checkbox" id="form-s-c1"> <label for="form-s-c1">1</label>
+                    <label><input name="checkbox1" value="2" type="checkbox"> 2</label>
+                    <label><input name="checkbox1" value="3" type="checkbox"> 3</label>
+                </div>
+            </div>
+            <div class="uk-form-row">
+                <span class="uk-form-label">Mixed controls</span>
+                <div class="uk-form-controls">
+                    <input type="checkbox" id="form-s-mix1"> <label for="form-s-mix1">Checkbox input</label>
+                    <input type="number" name="mix-number" id="form-s-mix2" min="0" max="10" value="5" class="uk-form-width-mini uk-form-small"> <label for="form-s-mix2">Number input</label>
+                    <select name="mix-select" id="form-s-mix3" class="uk-form-small">
+                        <option selected="selected">Option 01</option>
+                        <option>Option 02</option>
+                    </select>
+                    <label for="form-s-mix3">Select field</label>
+                </div>
+            </div>
+            <div class="uk-form-row">
+                <button class="uk-button uk-button-primary" type="submit">submit</button>
+            </div>
+        </form>
+    </li>
+    <li>Hello again!</li> 
+    <li>Bazinga!</li>
+</ul>
