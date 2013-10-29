@@ -1,4 +1,6 @@
 ikeii.js
 ========
 
-jQuery RIA framework
+Preview!!!
+
+http://aliseph.github.io/ki.js/
